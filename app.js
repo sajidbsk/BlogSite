@@ -108,11 +108,8 @@ app.delete("/blogs/:id", function(req, res){
    //redirect somewhere
 });
 
-<<<<<<< HEAD
 
-=======
 app.listen(3000 || process.env.PORT , function(){
->>>>>>> 76abeca1acd769acffa21bfd5d7758e94405af1a
     console.log("SERVER IS RUNNING!");
 })
 
